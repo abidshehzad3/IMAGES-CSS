@@ -1,4 +1,6 @@
-img.large{
+/* images size */
+
+/* img.large{
     width: 500px;
     height: 500px;
 }
@@ -9,4 +11,25 @@ img.medium{
 img.small{
     width: 100px;
     height: 100px;
+} */
+
+/* aligning images*/
+/* img{
+    width: 300px;
+    height: 300px;
+    float: right;
+} */
+/* img{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+} */
+
+/* centering images */
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
