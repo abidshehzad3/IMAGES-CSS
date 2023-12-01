@@ -58,6 +58,7 @@ img.small{
 } */
 
 /* backgroud position */
+
 /* body{
     background-image: url('./images/images.jpeg');
     background-repeat: no-repeat;
@@ -65,7 +66,36 @@ img.small{
 } */
 
 /* shorthand  */
-body{
+
+/* body{
     background: url('./images/images.jpeg')
     no-repeat center top;
+} */
+
+/* GRADIENTS */
+
+/* linear gradient */
+
+/* body{
+    background-image: linear-gradient(red,yellow);
+    height: 100vh;
+} */
+
+/* rainbow */
+
+/* body{
+    background-image: linear-gradient(to right,red,orange,green,blue,indigo,violet);
+    height: 100vh;
+} */
+
+/* radial gradient */
+/* body{
+    background-image: radial-gradient(red,yellow,green);
+    height: 100vh;
+} */
+
+/* conic gradient */
+body{
+    background-image: conic-gradient(red,yellow,green);
+    height: 100vh;
 }
