@@ -14,6 +14,7 @@ img.small{
 } */
 
 /* aligning images*/
+
 /* img{
     width: 300px;
     height: 300px;
@@ -26,10 +27,45 @@ img.small{
 } */
 
 /* centering images */
-img{
+
+/* img{
     width: 250px;
     height: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+} */
+
+/* backgroung images */
+
+/* body{
+    background-image: url('./images/car-7871392_1280.webp');
+} */
+
+/* backgroung repeat */
+
+/* body{
+    background-image: url('./images/images.jpeg');
+    background-repeat: no-repeat;
+} */
+
+/* backgroung attachment */
+
+/* body{
+    font-size: xx-large;
+    background-image: url('./images/car-7871392_1280.webp');
+    background-attachment: fixed;
+} */
+
+/* backgroud position */
+/* body{
+    background-image: url('./images/images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center top;
+} */
+
+/* shorthand  */
+body{
+    background: url('./images/images.jpeg')
+    no-repeat center top;
 }
